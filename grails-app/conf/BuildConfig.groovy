@@ -45,8 +45,22 @@ grails.project.dependency.resolution = {
     }
 
     plugins {
-        runtime ":hibernate:$grailsVersion"
+        // Backend
+        compile ":mysql-connectorj:5.1.22.1"
+
+        // Security
+        compile ':spring-security-core:1.2.7.3'
+        compile ":spring-security-ui:0.2"
+        //compile ":spring-security-facebook:0.14.3"
+        //compile ":spring-security-twitter:0.5.2"
+        //runtime ':oauth:2.0.1'
+
+        // JS UI
         runtime ":jquery:1.8.3"
+        compile ":jquery-ui:1.8.24"
+
+        // Common
+        runtime ":hibernate:$grailsVersion"
         runtime ":resources:1.1.6"
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
