@@ -98,7 +98,7 @@ class BootStrap {
                 advisor.save()
 
                 def student1 = new Person(
-                        username: 'stident1@seriousparachute.com',
+                        username: 'student1@seriousparachute.com',
                         password: 'qweqweqwe',
                         enabled: true,
                         accountExpired: false,
@@ -110,7 +110,7 @@ class BootStrap {
                 student1.save()
 
                 def student2 = new Person(
-                        username: 'stident2@seriousparachute.com',
+                        username: 'student2@seriousparachute.com',
                         password: 'qweqweqwe',
                         enabled: true,
                         accountExpired: false,
