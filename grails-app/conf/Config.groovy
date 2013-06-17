@@ -109,7 +109,7 @@ grails.plugins.springsecurity.authority.className = 'com.uol.seriousparachute.Au
 
 grails.plugins.springsecurity.roleHierarchy = '''
    ROLE_ADMIN > ROLE_STAFF
-   ROLE_STAFF > ROLE_USER
+   ROLE_ADMIN > ROLE_USER
 '''
 
 grails.plugins.springsecurity.rejectIfNoRule = true
