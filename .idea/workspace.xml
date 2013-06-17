@@ -2,23 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/com/uol/seriousparachute/AdminController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/uol/seriousparachute/AdminControllerTests.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/uol/seriousparachute/Authority.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/services/com/uol/seriousparachute/DocumentService.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/uol/seriousparachute/DocumentServiceTests.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/com/uol/seriousparachute/ErrorController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/uol/seriousparachute/ErrorControllerTests.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/com/uol/seriousparachute/IndexController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/uol/seriousparachute/IndexControllerTests.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/LoginController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/LogoutController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/services/com/uol/seriousparachute/MessageService.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/uol/seriousparachute/MessageServiceTests.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/uol/seriousparachute/Person.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/uol/seriousparachute/PersonAuthority.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/uol/seriousparachute/PersonalDocument.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/uol/seriousparachute/PersonalDocumentTests.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/uol/seriousparachute/PersonalMessage.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/uol/seriousparachute/PersonalMessageTests.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/com/uol/seriousparachute/SPConstants.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/com/uol/seriousparachute/SPException.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/uol/seriousparachute/SpMetadata.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/uol/seriousparachute/SpMetadataTests.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/com/uol/seriousparachute/StaffController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/uol/seriousparachute/StaffControllerTests.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/com/uol/seriousparachute/StudentController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/uol/seriousparachute/StudentControllerTests.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UolSpPoc-grailsPlugins.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/com/uol/seriousparachute/UserNotFoundException.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/services/com/uol/seriousparachute/UserService.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/uol/seriousparachute/UserServiceTests.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/login/auth.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/login/denied.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/admin/index.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/error/index.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/index/index.gsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UolSpPoc.iml" afterPath="$PROJECT_DIR$/UolSpPoc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/main.css" afterPath="$PROJECT_DIR$/web-app/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="UolSpPoc.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/Dummy.txt" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371042848964" ignored="false" />
-    <file path="/a.dummy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371042848482" ignored="false" />
+    <file path="/Dummy.txt" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371438917156" ignored="false" />
+    <file path="/a.dummy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371438916094" ignored="false" />
     <file path="$PROJECT_DIR$/../../AirSense/ahc/test/integration/com/airsensewireless/hypernet/deviceapi/DeviceAPIIntegrationTests.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371032552234" ignored="false" />
     <file path="/DeviceAPIIntegrationTests.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371032550776" ignored="false" />
     <file path="$PROJECT_DIR$/../../AirSense/ahc/grails-app/controllers/com/airsensewireless/hypernet/deviceapi/DeviceAPIController.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371028770837" ignored="false" />
     <file path="/DeviceAPIController.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371028257090" ignored="false" />
-    <file path="$PROJECT_DIR$/../../AirSense/ahc/grails-app/services/com/airsensewireless/hypernet/ManagementService.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371041543004" ignored="false" />
-    <file path="/ManagementService.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371041525036" ignored="false" />
+    <file path="$PROJECT_DIR$/../../AirSense/ahc/grails-app/services/com/airsensewireless/hypernet/ManagementService.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371044668892" ignored="false" />
+    <file path="/ManagementService.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371044667891" ignored="false" />
     <file path="$PROJECT_DIR$/../../AirSense/ahc/target/test-reports/TESTS-TestSuites.xml" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371033040101" ignored="false" />
     <file path="$PROJECT_DIR$/../../AirSense/ahc/target/test-reports/TEST-integration-integration-com.airsensewireless.hypernet.deviceapi.DeviceAPIIntegrationTests.xml" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371033040101" ignored="false" />
     <file path="$PROJECT_DIR$/../../AirSense/ahc/target/test-reports/TEST-unit-unit-com.airsensewireless.hypernet.constraint.MonthOfYearTesterTest.xml" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371031996985" ignored="false" />
@@ -45,6 +87,29 @@
     <file path="$PROJECT_DIR$/../../AirSense/ahc/grails-app/migrations/changelog-2.5.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371042401704" ignored="false" />
     <file path="/BuildConfig.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371043928732" ignored="false" />
     <file path="/DataSource.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371044002802" ignored="false" />
+    <file path="/main.gsp" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371437305346" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ArtBeat/ArtBeatCloud/grails-app/views/layouts/main.gsp" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371044790068" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ArtBeat/ArtBeatCloud/grails-app/controllers/com/artbeat/cloud/LoginController.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371045222686" ignored="false" />
+    <file path="/LoginController.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371044994333" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ArtBeat/ArtBeatCloud/grails-app/conf/UrlMappings.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371045192141" ignored="false" />
+    <file path="/UrlMappings.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371045165960" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ArtBeat/ArtBeatCloud/grails-app/conf/BootStrap.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371046240145" ignored="false" />
+    <file path="/BootStrap.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371438856996" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ArtBeat/ArtBeatCloud/grails-app/migrations/changelog-2.0.2.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371046511582" ignored="false" />
+    <file path="/changelog-2.0.2.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371046379525" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ArtBeat/ArtBeatCloud/grails-app/views/index/index.gsp" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371047024525" ignored="false" />
+    <file path="/index.gsp" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371437821867" ignored="false" />
+    <file path="$PROJECT_DIR$/../../AirSense/ahc/src/groovy/com/airsensewireless/hypernet/messaging/handler/IosDeviceNotifierHandler.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371047170249" ignored="false" />
+    <file path="$PROJECT_DIR$/../../AirSense/ahc/grails-app/conf/BootStrap.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371047761856" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ArtBeat/ArtBeatCloud/grails-app/conf/BuildConfig.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371436464574" ignored="false" />
+    <file path="/Config.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371436874685" ignored="false" />
+    <file path="/SPException.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371437149398" ignored="false" />
+    <file path="/fragment.java" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371437167096" ignored="false" />
+    <file path="/UserNotFoundException.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371437197014" ignored="false" />
+    <file path="/ErrorController.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371437393487" ignored="false" />
+    <file path="/Person.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371437475676" ignored="false" />
+    <file path="/SpMetadata.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371438389617" ignored="false" />
+    <file path="/SPConstants.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371438151762" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,28 +170,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/error/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="56" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
+            <state line="2" column="7" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.63829786">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <file leaf-file-name="BootStrap.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="65" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.0">
+            <state line="14" column="17" selection-start="555" selection-end="555" vertical-scroll-proportion="0.42168674">
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/uol/seriousparachute/ErrorController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="39" selection-start="354" selection-end="354" vertical-scroll-proportion="-7.826087">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSource.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/admin/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="34" selection-start="849" selection-end="849" vertical-scroll-proportion="0.61507934">
+            <state line="42" column="0" selection-start="1044" selection-end="1044" vertical-scroll-proportion="-13.404255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/error.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/index/index.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="-2.2340426">
               <folding />
             </state>
           </provider>
@@ -150,9 +244,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/groovy/com/uol/seriousparachute/UserNotFoundException.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/login/auth.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/login/denied.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/uol/seriousparachute/ErrorController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/uol/seriousparachute/Person.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/uol/seriousparachute/IndexController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/uol/seriousparachute/AdminController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/com/uol/seriousparachute/UserService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/index/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/admin/index.gsp" />
+        <option value="$PROJECT_DIR$/web-app/css/main.css" />
+        <option value="$PROJECT_DIR$/src/groovy/com/uol/seriousparachute/SPConstants.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/uol/seriousparachute/SpMetadata.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
       </list>
     </option>
   </component>
@@ -171,7 +278,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -200,21 +307,26 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propCompiler" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/grails-app/views/index" />
+      <recent name="$PROJECT_DIR$/grails-app/views/admin" />
+      <recent name="$PROJECT_DIR$/grails-app/views/error" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.uol.seriousparachute" />
+    </key>
   </component>
   <component name="RunManager" selected="Grails.Grails:UolSpPoc">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -225,25 +337,18 @@
       <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -272,6 +377,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -360,7 +478,11 @@
       <created>1370979771262</created>
       <updated>1370979771262</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add MySQL support.&#10;Add Spring Security.">
+      <created>1371044035883</created>
+      <updated>1371044035883</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -374,7 +496,7 @@
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -387,6 +509,7 @@
       <window_info id="TunnelliJ" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294964" sideWeight="0.67091835" order="2" side_tool="false" content_ui="tabs" />
@@ -398,7 +521,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -408,8 +530,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
@@ -445,7 +567,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MySQL support.&#10;Add Spring Security." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -460,6 +582,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="initial commit" />
+    <MESSAGE value="Add MySQL support.&#10;Add Spring Security." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -469,31 +592,129 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application.properties">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/uol/seriousparachute/IndexController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.26548672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/error.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="-2.2340426">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="0" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.36796537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/uol/seriousparachute/Authority.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="40" selection-end="40" vertical-scroll-proportion="0.07058824">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="56" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
+        <state line="113" column="0" selection-start="4513" selection-end="4513" vertical-scroll-proportion="0.49473685">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/login/denied.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="65" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="0.3504673">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="34" selection-start="849" selection-end="849" vertical-scroll-proportion="0.61507934">
+        <state line="31" column="43" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.2195122">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/com/uol/seriousparachute/SPConstants.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="48" selection-start="228" selection-end="228" vertical-scroll-proportion="0.27108434">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/uol/seriousparachute/SpMetadata.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="69" selection-start="254" selection-end="254" vertical-scroll-proportion="0.4017857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/uol/seriousparachute/PersonAuthority.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="96" selection-end="96" vertical-scroll-proportion="-0.63616073">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/uol/seriousparachute/Person.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.3638393">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/uol/seriousparachute/ErrorController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="354" selection-end="354" vertical-scroll-proportion="-7.826087">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/admin/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1044" selection-end="1044" vertical-scroll-proportion="-13.404255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/error/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.63829786">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="555" selection-end="555" vertical-scroll-proportion="0.42168674">
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -514,6 +735,11 @@
                 </map>
               </option>
             </GrailsSettings>
+          </value>
+        </entry>
+        <entry key="UolSpPoc-grailsPlugins">
+          <value>
+            <GrailsSettings />
           </value>
         </entry>
       </map>

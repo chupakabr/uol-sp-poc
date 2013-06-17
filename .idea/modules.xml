@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/UolSpPoc.iml" filepath="$PROJECT_DIR$/UolSpPoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UolSpPoc-grailsPlugins.iml" filepath="$PROJECT_DIR$/UolSpPoc-grailsPlugins.iml" />
     </modules>
   </component>
 </project>

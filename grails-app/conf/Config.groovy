@@ -1,3 +1,5 @@
+import org.springframework.security.access.vote.AuthenticatedVoter
+
 // locations to search for config files that get merged into the main config;
 // config files can be ConfigSlurper scripts, Java properties files, or classes
 // in the classpath in ConfigSlurper format
@@ -73,6 +75,12 @@ environments {
     }
 }
 
+//
+// Custom
+
+grails.gorm.failOnError = true
+
+
 // log4j configuration
 log4j = {
     // Example of changing the log pattern for the default console appender:
@@ -93,3 +101,28 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+// Added by the Spring Security Core plugin:
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.uol.seriousparachute.Person'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.uol.seriousparachute.PersonAuthority'
+grails.plugins.springsecurity.authority.className = 'com.uol.seriousparachute.Authority'
+
+grails.plugins.springsecurity.roleHierarchy = '''
+   ROLE_ADMIN > ROLE_STAFF
+   ROLE_STAFF > ROLE_USER
+'''
+
+grails.plugins.springsecurity.rejectIfNoRule = true
+grails.plugins.springsecurity.securityConfigType = "InterceptUrlMap"
+grails.plugins.springsecurity.interceptUrlMap = [
+        '/admin/**': ['ROLE_ADMIN'],
+        '/student/**': ['ROLE_USER'],
+        '/staff/**': ['ROLE_STAFF'],
+
+        '/login/**': [AuthenticatedVoter.IS_AUTHENTICATED_ANONYMOUSLY],
+        '/logout/**': [AuthenticatedVoter.IS_AUTHENTICATED_ANONYMOUSLY],
+        '/error/**': [AuthenticatedVoter.IS_AUTHENTICATED_ANONYMOUSLY],
+        '/': [AuthenticatedVoter.IS_AUTHENTICATED_ANONYMOUSLY],
+
+        '/**': [AuthenticatedVoter.IS_AUTHENTICATED_ANONYMOUSLY],
+]

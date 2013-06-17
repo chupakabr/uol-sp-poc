@@ -29,7 +29,7 @@ environments {
     }
     test {
         dataSource {
-            dbCreate = "createDrop"
+            dbCreate = "create-drop"
             url = "jdbc:mysql://localhost:3306/sp_test?zeroDateTimeBehavior=convertToNull"
         }
     }
