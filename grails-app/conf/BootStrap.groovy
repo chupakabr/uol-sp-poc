@@ -85,6 +85,18 @@ class BootStrap {
                 )
                 gbenga.save()
 
+                def advisor = new Person(
+                        username: 'advisor@seriousparachute.com',
+                        password: 'qweqweqwe',
+                        enabled: true,
+                        accountExpired: false,
+                        accountLocked: false,
+                        passwordExpired: false,
+                        enabledOn: new Date(),
+                        disabledOn: null
+                )
+                advisor.save()
+
                 def student1 = new Person(
                         username: 'stident1@seriousparachute.com',
                         password: 'qweqweqwe',
@@ -112,9 +124,10 @@ class BootStrap {
                 // Add roles per each user
                 PersonAuthority.create(gail, adminRole)
                 PersonAuthority.create(val, adminRole)
-                PersonAuthority.create(tosin, staffRole)
-                PersonAuthority.create(chang, staffRole)
-                PersonAuthority.create(gbenga, staffRole)
+                PersonAuthority.create(tosin, adminRole)
+                PersonAuthority.create(chang, adminRole)
+                PersonAuthority.create(gbenga, adminRole)
+                PersonAuthority.create(advisor, staffRole)
                 PersonAuthority.create(student1, userRole)
                 PersonAuthority.create(student2, userRole)
             }
