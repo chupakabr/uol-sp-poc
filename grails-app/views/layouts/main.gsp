@@ -42,8 +42,9 @@
                 cnt = PersonalMessage.countByTarget(curUser)
             }
         %>
-        <g:link controller="messages" title="Messages">inbox</g:link> (${cnt}) |
 
+        <g:link controller="student" action="index">Profile</g:link> |
+        <g:link controller="messages" title="Messages">inbox</g:link> (${cnt}) |
         <g:link controller="logout" title="Logout">Logout</g:link> (<sec:username/>)
     </sec:ifLoggedIn>
     <sec:ifNotLoggedIn>
