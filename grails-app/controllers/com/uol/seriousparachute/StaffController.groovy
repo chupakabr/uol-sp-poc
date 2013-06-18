@@ -10,7 +10,7 @@ class StaffController {
             "select count(*) from PersonAuthority as p where p.authority = :authority",
             [authority: studentAuthority])
         def entries = Person.findAll(
-            "from Person as p where exists (from PersonAuthority as pa where pa.person = p and pa.authority = :authority)",
+            "from Person as p where p.enabled = true and exists (from PersonAuthority as pa where pa.person = p and pa.authority = :authority)",
             [authority: studentAuthority])
 
         render(view: '/admin/index', model: [cnt: cnt, entries: entries])

@@ -130,6 +130,16 @@ body {
     width: 350px;
 }
 
+.entry div.doc_title {
+    width: 250px;
+}
+.entry div.doc_origname {
+    width: 300px;
+}
+.entry div.doc_created_on {
+    width: 250px;
+}
+
 .paginator {
     border-top: #d3d3d3 solid 1px;
     margin-top: 35px;

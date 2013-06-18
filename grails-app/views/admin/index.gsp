@@ -71,12 +71,12 @@
                 <g:link controller="messages" action="compose" id="${it.id}" title="Message">Message</g:link>
                 <sec:ifAnyGranted roles="ROLE_ADMIN">
                     <g:if test="${it.enabled}">
-                        | <g:link action="disable" id="${it.id}" title="Disable">Disable</g:link>
+                        | <g:link controller="admin" action="disableUser" id="${it.id}" title="Disable">Disable</g:link>
                     </g:if>
                     <g:else>
-                        | <g:link action="enable" id="${it.id}" title="Enable">Enable</g:link>
+                        | <g:link controller="admin" action="enableUser" id="${it.id}" title="Enable">Enable</g:link>
                     </g:else>
-                    | <g:link action="delete" id="${it.id}" title="Delete">Delete</g:link>
+                    | <g:link controller="admin" action="delete" id="${it.id}" title="Delete">Delete</g:link>
                 </sec:ifAnyGranted>
             </div>
         </div>

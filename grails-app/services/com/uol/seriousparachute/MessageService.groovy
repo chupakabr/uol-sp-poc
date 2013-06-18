@@ -30,7 +30,7 @@ class MessageService {
     /**
      * Delete user message.
      * @param id
-     * @return PersonalMessage
+     * @return true or false
      */
     boolean delete(def id) {
         Person curUser = springSecurityService.currentUser

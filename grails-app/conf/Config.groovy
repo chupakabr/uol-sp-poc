@@ -80,6 +80,8 @@ environments {
 
 grails.gorm.failOnError = true
 
+sp.dir.upload = "/home/sparachute/upload"
+
 
 // log4j configuration
 log4j = {
@@ -118,6 +120,7 @@ grails.plugins.springsecurity.interceptUrlMap = [
         '/admin/**': ['ROLE_ADMIN'],
         '/student/view/**': ['ROLE_USER', 'ROLE_STAFF'],
         '/student/documents/**': ['ROLE_USER', 'ROLE_STAFF'],
+        '/student/document/**': ['ROLE_USER', 'ROLE_STAFF'],
         '/student/**': ['ROLE_USER'],
         '/staff/**': ['ROLE_STAFF'],
 
