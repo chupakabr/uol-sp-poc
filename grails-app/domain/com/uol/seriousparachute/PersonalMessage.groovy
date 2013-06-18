@@ -25,8 +25,8 @@ class PersonalMessage {
     static constraints = {
         sender nullable: false
         target nullable: false
-        message nullable: false, blank: false
-        subject nullable: true
+        message nullable: false, blank: false, maxSize: 10000
+        subject nullable: true, maxSize: 250
         status nullable: false
         createdOn nullable: false
     }

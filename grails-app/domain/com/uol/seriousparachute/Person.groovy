@@ -26,11 +26,11 @@ class Person {
     ]
 
     static constraints = {
-        username blank: false, unique: true, email: true
+        username blank: false, unique: true, email: true, maxSize: 250
         password blank: false
-        fullname blank: false
-        address blank: false
-        phone nullable: true
+        fullname blank: false, maxSize: 100
+        address blank: false, maxSize: 100
+        phone nullable: true, maxSize: 20
 
         enabled nullable: false
         accountExpired nullable: false

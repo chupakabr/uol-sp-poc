@@ -24,18 +24,7 @@ class AdminController {
     }
 
     def view() {
-        // TODO
-        throw new IllegalStateException("Not implemented")
-    }
-
-    def create() {
-        // TODO
-        throw new IllegalStateException("Not implemented")
-    }
-
-    def update() {
-        // TODO
-        throw new IllegalStateException("Not implemented")
+        redirect(controller: "staff", action: "view", id: params.id)
     }
 
     def delete() {

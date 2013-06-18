@@ -16,6 +16,15 @@
             <div class="email">
                 Email (username)
             </div>
+            <div class="fullname">
+                Fullname
+            </div>
+            <div class="address">
+                Address
+            </div>
+            <div class="phone">
+                Phone
+            </div>
             <div class="enabled_on">
                 Enabled on
             </div>
@@ -35,10 +44,19 @@
     <g:each in="${entries}">
         <div class="entry">
             <div class="id">
-                <g:link action="view" id="${it.id}">${it.id}</g:link>
+                <g:link controller="student" action="view" id="${it.id}">${it.id}</g:link>
             </div>
             <div class="email">
-                <g:link action="view" id="${it.id}">${it.username}</g:link>
+                <g:link controller="student" action="view" id="${it.id}">${it.username}</g:link>
+            </div>
+            <div class="fullname">
+                ${it.fullname}&nbsp;
+            </div>
+            <div class="address">
+                ${it.address}&nbsp;
+            </div>
+            <div class="phone">
+                ${it.phone}&nbsp;
             </div>
             <div class="enabled_on">
                 <g:formatDate date="${it.enabledOn}" type="date" style="MEDIUM"/>&nbsp;
@@ -50,13 +68,16 @@
                 ${it.enabled}
             </div>
             <div class="actions">
-                <g:if test="${it.enabled}">
-                    <g:link action="disable" id="${it.id}" title="Disable">Disable</g:link>
-                </g:if>
-                <g:else>
-                    <g:link action="enable" id="${it.id}" title="Enable">Enable</g:link>
-                </g:else>
-                | <g:link action="delete" id="${it.id}" title="Delete">Delete</g:link>
+                <g:link controller="messages" action="compose" id="${it.id}" title="Message">Message</g:link>
+                <sec:ifAnyGranted roles="ROLE_ADMIN">
+                    <g:if test="${it.enabled}">
+                        | <g:link action="disable" id="${it.id}" title="Disable">Disable</g:link>
+                    </g:if>
+                    <g:else>
+                        | <g:link action="enable" id="${it.id}" title="Enable">Enable</g:link>
+                    </g:else>
+                    | <g:link action="delete" id="${it.id}" title="Delete">Delete</g:link>
+                </sec:ifAnyGranted>
             </div>
         </div>
     </g:each>

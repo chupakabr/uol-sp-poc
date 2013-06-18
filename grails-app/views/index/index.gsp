@@ -28,7 +28,7 @@
         <h3>For Students</h3>
         <p>
             In student cabinet users can send personal messages to admission consultants,
-            receive messages from admission consultants, upload documents.
+            receive messages from admission consultants, update personal information, upload documents.
             <br/>The following student accounts has been created for this POC:
             <ul>
                 <li>student1@seriousparachute.com</li>
