@@ -58,4 +58,24 @@ class UserService {
 
         p
     }
+
+    /**
+     * Update personal user profile.
+     * @param user Person instance
+     * @return Updated Person instance
+     * @throws UserNotFoundException
+     */
+    Person update(final Person user, String fullname, String address, String phone) throws UserNotFoundException {
+        if (!user) {
+            throw new UserNotFoundException("Empty user")
+        }
+
+        user.fullname = fullname
+        user.address = address
+        user.phone = phone
+        user.save(failOnError: false)
+
+        user
+    }
+
 }

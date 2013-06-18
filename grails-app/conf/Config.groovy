@@ -116,6 +116,8 @@ grails.plugins.springsecurity.rejectIfNoRule = true
 grails.plugins.springsecurity.securityConfigType = "InterceptUrlMap"
 grails.plugins.springsecurity.interceptUrlMap = [
         '/admin/**': ['ROLE_ADMIN'],
+        '/student/view/**': ['ROLE_USER', 'ROLE_STAFF'],
+        '/student/documents/**': ['ROLE_USER', 'ROLE_STAFF'],
         '/student/**': ['ROLE_USER'],
         '/staff/**': ['ROLE_STAFF'],
 

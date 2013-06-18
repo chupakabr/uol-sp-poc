@@ -5,6 +5,7 @@ import org.codehaus.groovy.grails.plugins.springsecurity.SpringSecurityUtils
 class StudentController {
 
     def springSecurityService
+    def userService
 
     def index() {
         // Display current user personal information
@@ -41,8 +42,15 @@ class StudentController {
     }
 
     def update() {
-        // TODO Update personal information
+        // Update personal information
         Person u = springSecurityService.currentUser
+        if (request.post) {
+            userService.update(u, params.fullname, params.address, params.phone)
+            if (!u.hasErrors()) {
+                flash.message = "Your user profile has been updated."
+            }
+        }
+        [entry: u]
     }
 
     def uploadDocument() {
@@ -52,13 +60,14 @@ class StudentController {
 
     private Person getUserOrAccessDenied() {
         Person curUser = springSecurityService.currentUser
-        if (curUser.id == params.id || SpringSecurityUtils.ifAnyGranted("ROLE_STAFF,ROLE_ADMIN")) {
+        if (curUser.id == Long.valueOf(params.id) || SpringSecurityUtils.ifAnyGranted("ROLE_STAFF,ROLE_ADMIN")) {
             Person u = Person.get(params.id)
             if (!u) {
                 throw new UserNotFoundException("User not found for ID=${params.id}")
             }
             return u
         }
+        flash.message = "Cannot access restricted resource"
         throw new HTTP403Exception()
     }
 }
