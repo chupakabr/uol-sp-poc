@@ -7,6 +7,9 @@ class Person {
     // User information
     String username
     String password
+    String fullname
+    String address
+    String phone
 
     // Flags
     boolean enabled
@@ -26,6 +29,9 @@ class Person {
     static constraints = {
         username blank: false, unique: true, email: true
         password blank: false
+        fullname blank: false
+        address blank: false
+        phone nullable: true
 
         enabled nullable: false
         accountExpired nullable: false

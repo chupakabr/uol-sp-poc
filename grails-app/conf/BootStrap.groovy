@@ -28,6 +28,9 @@ class BootStrap {
                 def gail = new Person(
                         username: 'gail@seriousparachute.com',
                         password: 'qweqweqwe',
+                        fullname: 'Gail Miles',
+                        address: 'New York',
+                        phone: null,
                         enabled: true,
                         accountExpired: false,
                         accountLocked: false,
@@ -40,6 +43,9 @@ class BootStrap {
                 def val = new Person(
                         username: 'val@seriousparachute.com',
                         password: 'qweqweqwe',
+                        fullname: 'Val Che',
+                        address: 'DPKR',
+                        phone: null,
                         enabled: true,
                         accountExpired: false,
                         accountLocked: false,
@@ -52,6 +58,9 @@ class BootStrap {
                 def tosin = new Person(
                         username: 'tosin@seriousparachute.com',
                         password: 'qweqweqwe',
+                        fullname: 'Oluwatosin',
+                        address: 'Liverpool',
+                        phone: null,
                         enabled: true,
                         accountExpired: false,
                         accountLocked: false,
@@ -64,6 +73,9 @@ class BootStrap {
                 def chang = new Person(
                         username: 'chang@seriousparachute.com',
                         password: 'qweqweqwe',
+                        fullname: 'Changseung',
+                        address: 'Liverpool',
+                        phone: null,
                         enabled: true,
                         accountExpired: false,
                         accountLocked: false,
@@ -76,6 +88,9 @@ class BootStrap {
                 def gbenga = new Person(
                         username: 'gbenga@seriousparachute.com',
                         password: 'qweqweqwe',
+                        fullname: 'Olugbengda',
+                        address: 'Liverpool',
+                        phone: null,
                         enabled: true,
                         accountExpired: false,
                         accountLocked: false,
@@ -88,6 +103,9 @@ class BootStrap {
                 def advisor = new Person(
                         username: 'advisor@seriousparachute.com',
                         password: 'qweqweqwe',
+                        fullname: 'Ip Man',
+                        address: 'Liverpool',
+                        phone: null,
                         enabled: true,
                         accountExpired: false,
                         accountLocked: false,
@@ -100,6 +118,9 @@ class BootStrap {
                 def student1 = new Person(
                         username: 'student1@seriousparachute.com',
                         password: 'qweqweqwe',
+                        fullname: 'Bruce Lee',
+                        address: 'Hong Kong',
+                        phone: null,
                         enabled: true,
                         accountExpired: false,
                         accountLocked: false,
@@ -112,6 +133,9 @@ class BootStrap {
                 def student2 = new Person(
                         username: 'student2@seriousparachute.com',
                         password: 'qweqweqwe',
+                        fullname: 'Jackie Chan',
+                        address: 'Hong Kong',
+                        phone: null,
                         enabled: true,
                         accountExpired: false,
                         accountLocked: false,
