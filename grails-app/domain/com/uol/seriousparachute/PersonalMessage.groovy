@@ -2,10 +2,6 @@ package com.uol.seriousparachute
 
 class PersonalMessage {
 
-    static enum MessageStatus {
-        NEW, READ
-    }
-
     Person sender
     Person target
 

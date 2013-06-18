@@ -1,5 +1,7 @@
 package com.uol.seriousparachute
 
+import org.codehaus.groovy.grails.plugins.springsecurity.SpringSecurityUtils
+
 class MessagesController {
 
     def springSecurityService
@@ -7,6 +9,7 @@ class MessagesController {
 
     def index() {
         Person u = springSecurityService.currentUser
+
         def lstParams = params
         lstParams['sort'] = "createdOn"
         lstParams['order'] = "desc"
@@ -14,7 +17,7 @@ class MessagesController {
         [
                 cnt: PersonalMessage.countByTarget(u),
                 entries: PersonalMessage.findAllByTarget(u, lstParams),
-                userList: Person.findAll()
+                userList: getUserList()
         ]
     }
 
@@ -31,7 +34,7 @@ class MessagesController {
 
         [
                 msg: msg,
-                userList: Person.findAll(),
+                userList: getUserList(),
                 id: params.id
         ]
     }
@@ -41,5 +44,19 @@ class MessagesController {
             flash.message = "Selected message has been removed from your inbox."
         }
         redirect(action: 'index')
+    }
+
+    private def getUserList() {
+        def lst
+        if (SpringSecurityUtils.ifAnyGranted('ROLE_ADMIN,ROLE_STAFF')) {
+            lst = Person.findAll()
+        } else {
+            Authority staffAuthority = Authority.findByAuthority("ROLE_STAFF")
+            lst = Person.findAll(
+                    "from Person as p where p.enabled = true and exists (from PersonAuthority as pa where pa.person = p and pa.authority = :authority)",
+                    [authority: staffAuthority])
+        }
+
+        lst
     }
 }

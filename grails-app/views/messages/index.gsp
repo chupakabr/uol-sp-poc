@@ -50,7 +50,12 @@
         <g:each in="${entries}">
             <div class="entry">
                 <div class="msg_from">
-                    ${it.sender.fullname}&nbsp;
+                    <sec:ifAnyGranted roles="ROLE_ADMIN,ROLE_STAFF">
+                        <g:link controller="student" action="view" id="${it.sender.id}">${it.sender.fullname}</g:link>&nbsp;
+                    </sec:ifAnyGranted>
+                    <sec:ifNotGranted roles="ROLE_ADMIN,ROLE_STAFF">
+                        ${it.sender.fullname}&nbsp;
+                    </sec:ifNotGranted>
                 </div>
                 <div class="msg_senton">
                     <g:formatDate date="${it.createdOn}" type="datetime" style="MEDIUM"/>&nbsp;
