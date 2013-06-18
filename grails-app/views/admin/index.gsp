@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Serious Parachute</title>
+    <title>Serious Parachute - Admin Console</title>
 </head>
 <body>
 

@@ -2,7 +2,13 @@ package com.uol.seriousparachute
 
 class DocumentService {
 
-    def serviceMethod() {
-
+    /**
+     *
+     * @param tmpFilePath
+     * @param title
+     * @return PersonalDocument
+     */
+    PersonalDocument upload(String tmpFilePath, String title) {
+        // TODO
     }
 }

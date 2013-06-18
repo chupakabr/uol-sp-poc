@@ -1,3 +1,4 @@
+<%@ page import="com.uol.seriousparachute.PersonalMessage; com.uol.seriousparachute.Person" %>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
@@ -22,6 +23,27 @@
 <div id="top_header">
     <g:link uri="/">Home</g:link> |
     <sec:ifLoggedIn>
+        <% def cabinetCtrl = null %>
+        <sec:ifAnyGranted roles="ROLE_USER">
+            <% cabinetCtrl = "student" %>
+        </sec:ifAnyGranted>
+        <sec:ifAnyGranted roles="ROLE_STAFF">
+            <% cabinetCtrl = "staff" %>
+        </sec:ifAnyGranted>
+        <sec:ifAnyGranted roles="ROLE_ADMIN">
+            <% cabinetCtrl = "admin" %>
+        </sec:ifAnyGranted>
+        <g:link controller="${cabinetCtrl}">Cabinet</g:link> |
+
+        <%
+            def cnt = 0
+            Person curUser = Person.findByUsername(sec.username())
+            if (curUser) {
+                cnt = PersonalMessage.countByTarget(curUser)
+            }
+        %>
+        <g:link controller="messages" title="Messages">inbox</g:link> (${cnt}) |
+
         <g:link controller="logout" title="Logout">Logout</g:link> (<sec:username/>)
     </sec:ifLoggedIn>
     <sec:ifNotLoggedIn>
@@ -40,7 +62,7 @@
 
 <div id="top_footer">
     <p>
-        2013 &copy; Serious Parachute
+        2013 &copy; Serious Parachute, Admission Process Component
     </p>
 </div>
 

@@ -22,7 +22,6 @@ class Person {
     Date disabledOn
 
     static hasMany = [
-            messages: PersonalMessage,
             documents: PersonalDocument
     ]
 

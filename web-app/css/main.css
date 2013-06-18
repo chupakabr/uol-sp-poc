@@ -108,6 +108,19 @@ body {
     width: 120px;
 }
 
+.entry div.msg_from {
+    width: 150px;
+}
+.entry div.msg_senton {
+    width: 120px;
+}
+.entry div.msg_subject {
+    width: 180px;
+}
+.entry div.msg_text {
+    width: 350px;
+}
+
 .paginator {
     border-top: #d3d3d3 solid 1px;
     margin-top: 35px;
@@ -123,7 +136,7 @@ body {
     color: #ff506b;
 }
 
-.invitation_form {
+.message_form {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -136,11 +149,27 @@ a:hover, a:active {
     outline: none; /* prevents outline in webkit on active links but retains it for tab focus */
 }
 
+ul.cabinet_links {
+    margin-bottom: 15px;
+}
+
 h1 {
     color: #48802c;
     font-weight: normal;
     font-size: 1.25em;
     margin: 0.8em 0 0.3em 0;
+}
+
+h3 {
+    color: #48802c;
+    font-weight: normal;
+    font-size: 1.15em;
+    margin: 0.8em 0 0.3em 0;
+}
+
+div.help {
+    border-top: #d3d3d3 solid 1px;
+    margin-top: 5px;
 }
 
 img {
