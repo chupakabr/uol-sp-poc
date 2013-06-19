@@ -130,6 +130,8 @@ grails.plugins.springsecurity.interceptUrlMap = [
         '/logout/**': [AuthenticatedVoter.IS_AUTHENTICATED_ANONYMOUSLY],
         '/error/**': [AuthenticatedVoter.IS_AUTHENTICATED_ANONYMOUSLY],
         '/': [AuthenticatedVoter.IS_AUTHENTICATED_ANONYMOUSLY],
+        '/static/**': [AuthenticatedVoter.IS_AUTHENTICATED_ANONYMOUSLY],
+        '/files/**': [AuthenticatedVoter.IS_AUTHENTICATED_ANONYMOUSLY],
 
         '/**': [AuthenticatedVoter.IS_AUTHENTICATED_ANONYMOUSLY],
 ]
