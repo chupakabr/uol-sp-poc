@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" name="Default" comment="project files">
+    <list default="true" id="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/myltik.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scala_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="UolSpPoc.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/Dummy.txt" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1375794364294" ignored="false" />
+    <file path="/Dummy.txt" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1375794505083" ignored="false" />
     <file path="/a.dummy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1375794313349" ignored="false" />
     <file path="$PROJECT_DIR$/../../AirSense/ahc/test/integration/com/airsensewireless/hypernet/deviceapi/DeviceAPIIntegrationTests.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371032552234" ignored="false" />
     <file path="/DeviceAPIIntegrationTests.groovy" changelist="c41dc6f5-efe0-4de1-b4c1-b57f89e05a3e" time="1371032550776" ignored="false" />
@@ -319,20 +330,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UolSpPoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UolSpPoc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -601,7 +598,11 @@
       <created>1375794356659</created>
       <updated>1375794356659</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="project files">
+      <created>1375794509702</created>
+      <updated>1375794509702</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
